@@ -21,7 +21,7 @@ body {
 }
 .card h1 {
   font-size: 4rem;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   border-radius: 20px;
 }
 .search {
@@ -29,7 +29,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 5rem;
 }
 .search input {
   border: none;
@@ -57,7 +56,7 @@ body {
   width: 16px;
 }
 .weather-icon {
-  width: 170px;
+  width: 100px;
   margin-top: 30px;
 }
 .weather h2 {
@@ -94,4 +93,9 @@ body {
 .temp-container {
   display: flex;
   justify-content: center;
+}
+
+.error {
+  margin-top: 2rem;
+  display: none;
 }
